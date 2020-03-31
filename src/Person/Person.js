@@ -5,7 +5,7 @@ const Person = (props)=>{
         <div className="Card">
             <h3>Name:{props.name}</h3>
             <h5>Age: {props.age}</h5>
-            <h5> Town: {props.town}</h5>
+            <h5 onClick={props.click}> Town: {props.town}</h5>
     <p>{props.children}</p>
         </div>
     )
